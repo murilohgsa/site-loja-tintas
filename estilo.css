@@ -5,7 +5,7 @@
 }
 body{
     min-width: 100vw;
-    min-height: 10vh;
+    min-height: 100vh;
 }
 #headerindex{
     display: flex;
@@ -38,9 +38,11 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #mainindex{
-    border: 1px solid black;
     width: 100vw;
     height: 60vh;
+    background-color: rgb(2, 2, 87);
+}
+#divtintas{
     background-color: rgb(2, 2, 87);
 }
 #imglatas{
@@ -90,7 +92,6 @@ h2{
 .imgprodini{
     width: 150px;
     height: 150px;
-    
 }
 #txtpesquisa{
     position: absolute;
@@ -101,6 +102,22 @@ h2{
     left: 83vw;
     width: 20px;
     height: 20px;
+}
+#imgcarrinho{
+    width: 40px;
+    height: 40px;   
+}
+#bordacarrinho{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 5vw;
+    top: 6vh;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .final{
     background-color: rgba(255, 161, 39, 0.842);
@@ -203,7 +220,7 @@ h2{
     width: 70px;
     height: 40px;
     position: absolute;
-    top: 87%;
+    top: 96%;
     left: 66%;
 }
 #convaut{
@@ -211,7 +228,7 @@ h2{
     padding: 10px;
     border-radius: 5px;
     position: absolute;
-    top: 54%;
+    top: 61%;
     right: 40%; 
 }
 #imglobo{
@@ -219,11 +236,117 @@ h2{
     height: 40px;
     border-radius: 100%;
     position: absolute;
-    top: 55%;
+    top: 62%;
     right: 70%;
 }
 #spanome{
     position: absolute;
-    top: 50%;
+    top: 57%;
     right: 58%;
+}
+/*Carrinho*/
+.btcarrinho{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: orange;
+    border-radius: 5px;
+}
+#headcar{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(3, 3, 49);
+    color: white;
+}
+#seccar{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 70vh;
+}
+#itenscar{
+    border: 1px solid black;
+    width: 90vw;
+    height: 70vh;
+}
+#adcitenscar{
+    border: 1px solid black;
+    width: 50vw;
+    height: 70vh;
+}
+/*Produto 1*/
+#prod1{
+    width: 30vw;
+    height: 70vh;
+}
+#especificação{
+    width: 50vw;
+    height: 70vh;
+}
+#divcepprod1{
+    width: 20vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+#cepprod1{
+    width: 17vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+    
+#secprod1{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+#especificação>h2{
+    display: flex;
+    justify-content: start;
+    color: black;
+    margin: 10px;
+}
+#preçoprod1{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+#adccarrinhoprod1{
+    margin-top: 10px;
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+}
+#adccarrinho{
+    width: 15vw;
+    height: 5vh;
+    background-color: yellow;
+    border-radius: 5px;
+}
+#divimgprod1{
+    
+}
+#imgprod1{
+    width: 400px;
+    height: 400px;
+}
+#linkprod1{
+    color: black;
+}
+#btncep{
+    margin-top: 10px;
+    background-color: blue;
 }
