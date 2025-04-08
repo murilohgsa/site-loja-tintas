@@ -1,0 +1,229 @@
+/*Início*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 100vw;
+    min-height: 10vh;
+}
+#headerindex{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(3, 3, 49);
+    color: white;
+}
+#sectionindex{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(2, 2, 87);
+}
+a{
+    color: white;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#mainindex{
+    border: 1px solid black;
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(2, 2, 87);
+}
+#imglatas{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    gap: 20px;
+}
+.box{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 20vw;
+    height: 40vh; 
+}
+#box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.imgprodini{
+    width: 150px;
+    height: 150px;
+    
+}
+#txtpesquisa{
+    position: absolute;
+    left: 85vw;
+}
+#lupaimg{
+    position: absolute;
+    left: 83vw;
+    width: 20px;
+    height: 20px;
+}
+.final{
+    background-color: rgba(255, 161, 39, 0.842);
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+}
+#f1{
+    width: 20vw;
+    height: 30vh;
+}
+#f2{
+    width: 20vw;
+    height: 30vh;
+}
+#f3{
+    width: 20vw;
+    height: 30vh;
+}
+.f{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+#bandeiramg{
+    width: 150px;
+    height: 100px;
+}
+#formadepag{
+    width: 200px;
+    height: 150px;
+}
+/*Produtos*/
+#imgparede{
+    width: 100vw;
+    height: 40vh;
+}
+#prodcab{
+    width: 100vw;
+    height: 40vh;
+}
+#prodtitulo{
+    display: flex;
+    justify-content: center;
+}
+.prodcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+    gap: 20px;
+}
+/*Contato*/
+#contcab{
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(3, 3, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color: white;
+}
+#contmain{
+    width: 100vw;
+    height: 20vh;
+    border: 1px solid black;
+    display: flex;  
+    flex-direction: column;
+    background-color: rgba(255, 161, 39, 0.842);
+}
+#seccont{
+    width: 100vw;
+    height: 60vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#chatcont{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+#txtchat{
+    width: 30vw;
+    height: 10vh;
+    margin-bottom: 10px;
+}
+#contbot{
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    top: 87%;
+    left: 66%;
+}
+#convaut{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 54%;
+    right: 40%; 
+}
+#imglobo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 55%;
+    right: 70%;
+}
+#spanome{
+    position: absolute;
+    top: 50%;
+    right: 58%;
+}
