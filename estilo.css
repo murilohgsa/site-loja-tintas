@@ -96,7 +96,7 @@ h2{
 }
 .clickdiv{
     text-decoration: none;
-    
+    color: inherit;
     display: inline-block;
 }
 .imgprodini{
@@ -187,7 +187,7 @@ h2{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
     gap: 20px;
 }
 /*Contato*/
@@ -288,8 +288,8 @@ h2{
 #imgitemcar{
     width: 150px;
     height: 150px;
-    position: absolute;
-    top: 25%;
+    display: flex;
+    flex-wrap: wrap;
 }
 #adcitenscar{
     display: flex;
@@ -300,9 +300,19 @@ h2{
     height: 70vh;
 }
 #textitemcar{
-    position: absolute;
-    right: 68%;
-    top: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    width: 60vw;
+}
+#txtquant{
+    width: 100px;
+    height: 40px;
+}
+#btnseleccar{
+    width: 100px;
+    height: 40px;
 }
 #prodcartitulo{
     display: flex;
@@ -399,9 +409,7 @@ h2{
     background-color: orange;
     border-radius: 5px;
 }
-#divimgprod1{
-    
-}
+
 #imgprod1{
     width: 400px;
     height: 400px;
@@ -413,4 +421,335 @@ h2{
     margin-top: 10px;
     background-color: blue;
 }
-/**/
+
+/*Deixando responsivo*/
+@media screen and (max-width: 600px) {
+    
+    /*Header*/
+    #headerindex {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /*Menu*/
+    #sectionindex {
+        flex-direction: column;
+        height: auto;
+        gap: 5px;
+        padding: 10px 0;
+    }
+
+    /*Carrinho*/
+    #headcar {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #seccar {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #itenscar {
+        width: 90vw;
+        height: auto;
+    }
+
+    #adcitenscar {
+        width: 90vw;
+        height: auto;
+        align-items: center;
+    }
+
+    #textitemcar{
+        position: static;
+        margin: 10px 0;
+        text-align: center;
+        width: 90%;
+   }
+
+    #imgitemcar {
+        position: relative;
+        margin: auto;
+        width: 90%;
+    }
+
+    #divfim {
+        width: 90vw;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    #divselec {
+        width: 90vw;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    #btnfcomp {
+        width: 80vw;
+        height: 40px;
+    }
+
+    #btnadcitens {
+        width: 80vw;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    #prodcartitulo {
+        justify-content: center;
+        text-align: center;
+    }
+
+    /*Psequisa*/
+    #txtpesquisa {
+        position: static;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    #lupaimg {
+        position: static;
+        margin: 10px auto;
+    }
+
+    /*Início*/
+    #mainindex {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box {
+        width: 90vw;
+        height: auto;
+    }
+
+    .imgprodini {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*footer*/
+    .final {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #f1 {
+        width: 90vw;
+        height: auto;
+    }
+
+    #f2 {
+        width: 90vw;
+        height: auto;
+    }
+
+    #f3 {
+        width: 90vw;
+        height: auto;
+    }
+
+    #bandeiramg {
+        width: 100px;
+        height: auto;
+    }
+
+    #formadepag {
+        width: 150px;
+        height: auto;
+    }
+
+    /*Produtos*/
+    #imgparede {
+        height: auto;
+    }
+
+    #prodcab {
+        height: auto;
+    }
+
+    .prodcontainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #prod1 {
+        width: 90vw;
+        height: auto;
+    }
+
+    #especificação {
+        width: 90vw;
+        height: auto;
+    }
+
+    #imgprod1 {
+        width: 80vw;
+        height: auto;
+    }
+
+    #adccarrinho {
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        height: auto;
+    }
+
+    #cepprod1 {
+        width: 90vw;
+        margin-top: 20px;
+    }
+
+    #btncep {
+        width: 80%;
+    }
+
+    /*Contato*/
+    #contcab {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    #contmain {
+        height: auto;
+        padding: 10px;
+    }
+
+    #seccont {
+        height: auto;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #chatcont {
+        width: 90vw;
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #txtchat {
+        width: 80vw;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    #contbot {
+        position: static;
+        width: 100px;
+        height: 40px;
+        margin: 10px auto;
+    }
+
+    #convaut {
+        position: static;
+        margin: 10px auto;
+        width: 80vw;
+    }
+
+    #imglobo {
+        position: static;
+        margin: 10px auto;
+        width: 30px;
+        height: 30px;
+    }
+
+    #spanome {
+        position: static;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    /*Produto 1*/
+    #secprod1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #prod1 {
+        width: 90vw;
+        height: auto;
+    }
+
+    #imgprod1 {
+        width: 80vw;
+        height: auto;
+    }
+
+    #especificação {
+        width: 90vw;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    #especificação > h2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+    #preçoprod1 {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #adccarrinhoprod1 {
+        width: 90vw;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #adccarrinho {
+        width: 80vw;
+        height: 6vh;
+    }
+
+    #divcepprod1 {
+        width: 90vw;
+        height: auto;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #cepprod1 {
+        width: 90vw;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    #btncep {
+        width: 80vw;
+        height: 5vh;
+    }
+
+    #linkprod1 {
+        text-align: center;
+    }
+
+}
