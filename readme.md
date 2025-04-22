@@ -2,7 +2,7 @@
 
 **Desenvolvido por: Murilo Henrique Galvão**
 
-## 🖌️ Sobre o projeto:
+## Sobre o projeto:
 
 Este projeto é um site fictício de tintas, desenvolvido com HTML e CSS, com o objetivo de praticar e aprender conceitos básicos de desenvolvimento web.
 
@@ -16,6 +16,6 @@ O site simula uma loja virtual e possui páginas como:
 
 Também foram aplicadas técnicas de responsividade para garantir boa visualização em telas menores, como celulares e tablets.
 
-## 💻 Como visualizar o site:
+## Como visualizar o site:
 
 1. Clone o repositório ou baixe o arquivo `.zip
